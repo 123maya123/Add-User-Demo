@@ -1,0 +1,18 @@
+.button {
+    font:inherit;
+    border: 2px solid darkgreen;
+    background: yellowgreen;
+    color:black;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .button:hover,
+  .button:active {
+    background: rgba(255, 255, 0, 0.349);
+    border-color: darkgreen;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
